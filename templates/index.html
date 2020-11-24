@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FroutoPidia🍒</title>
+    <link rel="stylesheet" href='{% static "assets/style.css" %}'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar">
+        <img src='{% static "assets/img/logo.png" %}'alt=""> 
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="navbar-icons">
+            <img src='{% static "assets/img/bell.png" %}'alt="">
+            <img src='{% static "assets/img/user.png" %}'alt="">
+            <img src='{% static "assets/img/menu.png" %}'alt="">
+        </div>
+        </div>
+        <div class="banner">
+            <div class="left-column">
+                <div class="search-box">
+                    <img src='{% static "assets/img/search.png" %}'alt="">
+                    <input type="text">
+                </div>
+                <h1>Straw <span>berries</span> </h1>
+                <h3>Always fills your heart with joy</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum soluta illo quaerat, <br> exercitationem tenetur blanditiis amet minima distinctio nisi!
+                </p>
+                <div class="btn">
+                    <button class="button primary-btn">Learn More</button>
+                    <button class="button ">Watch Video</button>
+                </div>
+                <div class="social-icons">
+                    <img src='{% static "assets/img/twitter.png" %}' alt="">
+                    <img src='{% static "assets/img/instagram.png" %}'alt="">
+                    <img src='{% static "assets/img/pinterest.png" %}'alt="">
+                    <img src='{% static "assets/img/facebook.png" %}' alt="">
+                </div>
+            </div>
+            <div class="right-column">
+                <img src='{% static "assets/img/feature.png" %}' alt="">
+            </div>
+         </div>
+        </div>
+            
+    
+</body>
+</html>
